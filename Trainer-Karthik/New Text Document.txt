@@ -1,0 +1,28 @@
+class Employee
+{
+	int eid;
+	String eName;
+	String dest;
+	long salary;
+
+	void displayEmployeeDetails()
+	{
+		System.out.println("Employee ID : "+eid);
+		System.out.println("Employee Name : "+eName);
+		System.out.println("Employee Des : "+dest);
+		System.out.println("Employee Salary : "+salary);
+	}
+	
+	public static void main(String a[])
+	{
+		Employee emp = new Employee();
+		
+		emp.eid=101;
+		emp.eName = "ABC";
+		emp.dest = "Manager";
+		emp.salary = 10000l;
+
+		emp.displayEmployeeDetails();
+	}
+}
+	
