@@ -19,3 +19,12 @@ public class Attendance {
 
 
 }
+
+/*ouput
+5 Students are present in the class
+Lokesh
+Jerish
+Arun Kumar
+Poornesh
+Jeeva
+*/
