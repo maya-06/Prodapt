@@ -3,7 +3,7 @@ public class Attendance{
 		{
 			System.out.println("MASS BUNK");
 		}
-		void markAttendance(String... s)
+	void markAttendance(String... s)
 		{
 			System.out.println("No. of Students present is: "+s.length);
 			System.out.println("Name of the Students Present:");
